@@ -161,7 +161,6 @@ cardContainer.addEventListener('click', (e) => {
     ) {
       target.closest('.card').querySelector('.readText').textContent = 'read';
       library[index].read = 'read';
-      console.log(library);
       completed = !completed;
     } else if (
       target.closest('.card').querySelector('.readText').textContent === 'read'
@@ -169,8 +168,6 @@ cardContainer.addEventListener('click', (e) => {
       target.closest('.card').querySelector('.readText').textContent =
         'not read';
       library[index].read = 'not read';
-      console.log(library);
-
       completed = !completed;
     }
   }
