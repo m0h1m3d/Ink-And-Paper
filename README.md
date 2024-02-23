@@ -1,3 +1,3 @@
 # Ink-And-Paper
 
-Your own digital libirary
+Your own digital library
