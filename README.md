@@ -2,7 +2,7 @@
 
 Your own digital library prject from the odin project course!
 
-![website preview][/icons/preview.png]
+![][/icons/preview.png]
 
 ![](/icons/add.png)
 
