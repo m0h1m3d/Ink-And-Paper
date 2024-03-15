@@ -82,15 +82,17 @@ window.addEventListener('keydown', (e) => {
 //library logic
 const library = [];
 
-const Book = function (title, author, pages, genre, read) {
-  (this.title = title),
-    (this.author = author),
-    (this.pages = pages),
-    (this.genre = genre),
-    (this.read = read),
-    (this.info = function () {
+class Book{
+  constructor(title,author,pages,genre,read){
+    this.title = title,
+    this.author = author,
+    this.pages = pages,
+    this.genre = genre,
+    this.read = read;
+  }
+    info() {
       return `${this.title} by ${this.author}, ${this.pages} pages,${this.genre} and ${this.read}`;
-    });
+    };
 };
 
 const addBook = function () {
